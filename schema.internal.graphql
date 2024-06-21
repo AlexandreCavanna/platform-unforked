@@ -132,6 +132,7 @@ interface AbstractDebateVote {
 enum AddAnonymousReplyErrorCode {
   """The submited reply is not valid."""
   INVALID_FORM
+  INVALID_FORME
 }
 
 input AddAnonymousReplyInput {
@@ -261,6 +262,7 @@ enum AddDebateAnonymousVoteErrorCode {
 
   """The given captcha is invalid."""
   INVALID_CAPTCHA
+  INVALID_CAPTCHAA
 }
 
 input AddDebateAnonymousVoteInput {
